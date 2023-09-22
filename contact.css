@@ -1,0 +1,159 @@
+@import url("https://font.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+/* Header */
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    justify-content: border-box;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 130px;
+}
+
+
+
+/* Navigation links */
+.parent-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-225%, -40%);
+}
+
+.social-links {
+    text-decoration: none;
+
+    color: #fff;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.social-links:hover {
+    color: #f5a623;
+    /* Change link color on hover */
+}
+
+
+.sm-icon {
+    padding: 0.5rem;
+    margin: 10px;
+    color: #0077b5;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+    border: none;
+    border-radius: 0;
+    right: -690%;
+    position: relative;
+}
+
+.sm-icon ion-icon {
+    font-size: 20px;
+
+}
+
+.sm-icon:hover {
+    transform: scale(1.1);
+    color: #fff;
+}
+
+
+
+nav {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.logo {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    display: block;
+    transition: opacity 0.3s ease;
+    left: 20px;
+    transform: translate(-70%, -70%);
+}
+
+.logo:hover {
+    opacity: 0.7;
+}
+
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    justify-content: border-box;
+
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+.precepo1 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.precepo1 h2 {
+    color: #0077b5;
+    /* لون العنوان */
+}
+
+.precepo1 h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.precepo1 ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#article h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#article p {
+    font-size: 14px;
+    color: #333;
+}
